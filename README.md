@@ -1,6 +1,6 @@
 # Vademecum-oop-exam
 
-How to survive at oop guide!
+How to survive to oop guide!
 
 per tutte le altre volte che dovrò installare questo schifo
 
