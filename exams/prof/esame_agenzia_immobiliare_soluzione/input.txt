@@ -1,0 +1,3 @@
+C;NRIGSP88P11B000E;Neri;Giuseppe
+I;ASTI;Via Canelli 33;Abitazione indipendente;8;200;Villa isolata nelle colline dell'astigiano.
+T;ASTI1;NRIGSP88P11B000E;VRDNNA11T22L333G;500000

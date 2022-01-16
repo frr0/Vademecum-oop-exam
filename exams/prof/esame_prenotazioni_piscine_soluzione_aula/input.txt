@@ -1,0 +1,3 @@
+PISCINA;Strada Bagnata 55, Milano;200;140;6
+PISCINA;Piazza Allagata 11, Roma;100;60;4
+PRENOTAZIONE;Strada Bagnata 55, Milano;20200916;B;Anna;Gialli;+393331111111

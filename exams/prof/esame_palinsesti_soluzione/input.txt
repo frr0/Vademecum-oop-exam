@@ -1,0 +1,6 @@
+PA;Autunno/Inverno;La 5;20180921;20190320
+PA;Autunno/Inverno;Fox Crimes;20180921;20190320
+PA;Pasqua;Italia 2;20180328;20190404
+PR;Pasqua;Italia 2;Quarti Coppa Italia;Partita calcio
+PR;Pasqua;Italia 2;Dr. House;Serie TV
+PR;Pasqua;Italia 2;Amici;Generico

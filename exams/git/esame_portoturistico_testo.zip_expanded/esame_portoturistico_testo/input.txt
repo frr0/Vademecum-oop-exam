@@ -1,0 +1,4 @@
+B, 20
+S, B, 40, 10, permanente
+S, D, 15, 3, di passaggio
+S, A, 10, 2, permanente

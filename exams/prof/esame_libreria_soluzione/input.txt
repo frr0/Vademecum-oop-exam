@@ -1,0 +1,5 @@
+E;Adelphi;5;ordini@adlephi.it
+E;Mondadori;10;richieste@mondadori.it
+L;Siddartha;Hesse;2000;5.5;Adelphi;10
+L;Promessi Sposi;Manzoni;1999;10.2;Mondadori;15
+Edgfhgf;Mondadorello;10;richieste@mondadori.it

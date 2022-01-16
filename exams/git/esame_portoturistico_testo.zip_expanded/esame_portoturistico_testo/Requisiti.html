@@ -1,0 +1,282 @@
+<html>
+
+<head>
+<meta name=Titolo content="">
+<meta name="Parole chiave" content="">
+<meta http-equiv=Content-Type content="text/html; charset=macintosh">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Courier New";
+	panose-1:2 7 3 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\FF2D\FF33 \660E\671D";}
+@font-face
+	{font-family:"\FF2D\FF33 \660E\671D";}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Cambria;}
+h1
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:24.0pt;
+	font-family:"Times New Roman";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:Arial;
+	color:black;}
+span.Titolo1Carattere
+	{font-family:"Times New Roman";
+	font-weight:bold;}
+span.CorpodeltestoCarattere
+	{font-family:Arial;
+	color:black;}
+.MsoChpDefault
+	{font-family:Cambria;}
+@page WordSection1
+	{size:595.0pt 842.0pt;
+	margin:1.0cm 35.45pt 14.2pt 35.45pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=IT>
+
+<div class=WordSection1>
+
+<h1 align=center style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:center'><span style='font-size:16.0pt;color:black'>Porto
+turistico</span></h1>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>Sviluppare un’applicazione che consenta di gestire le
+informazioni relative al funzionamento di un porto turistico. Tutte le classi
+devono essere contenute nel package </span><span style='font-size:9.0pt;
+font-family:"Courier New"'>portoturistico</span><span style='font-size:10.0pt;
+font-family:Times'>.</span></p>
+
+<div class=MsoNormal align=center style='margin-bottom:3.0pt;text-align:center'><span
+style='font-size:10.0pt;font-family:Times'>
+
+<hr size=2 width=1080 style='width:1080.0pt' noshade style='color:black'
+align=center>
+
+</span></div>
+
+<p class=MsoNormal style='margin-bottom:3.0pt;text-autospace:none'><b><span
+style='font-family:Times'>R1. Banchine e spazi</span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>L’applicazione viene gestita mediante un’istanza della
+classe </span><span style='font-size:9.0pt;font-family:"Courier New"'>Porto</span><span
+style='font-size:10.0pt;font-family:Times'>. Il porto e’ strutturato in
+banchine, ciascuna organizzata in una serie di spazi. Le banchine vengono
+definite attraverso il metodo <b>nuovaBanchina()</b> della classe </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Porto</span><span
+style='font-size:10.0pt;font-family:Times'>, &nbsp;che riceve come parametro il
+numero massimo di spazi configurabili e restituisce l’istanza della classe </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Banchina</span><span
+style='font-size:10.0pt;font-family:Times'> corrispondente. Ogni banchina e’
+identificata univocamente da una lettera dell’alfabeto latino (26 lettere, dalla
+</span><span style='font-size:10.0pt;font-family:"Times New Roman"'>‘A’ alla
+‘Z’)</span><span style='font-size:10.0pt;font-family:Times'>, assegnata
+automaticamente all’atto della creazione. Il metodo restituisce l’oggetto di
+classe </span><span style='font-size:9.0pt;font-family:"Courier New"'>Banchina</span><span
+style='font-size:10.0pt;font-family:Times'> corrispondente (oppure </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>null</span><span
+style='font-size:10.0pt;font-family:Times'> nel caso in cui si cerchino di
+creare banchine oltre la ‘Z’). Attraverso un opportuno metodo getter della
+classe </span><span style='font-size:9.0pt;font-family:"Courier New"'>Banchina</span><span
+style='font-size:10.0pt;font-family:Times'> e’ possibile conoscere la lettera assegnata
+alla particolare banchina considerata. </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>Gli spazi di una determinata banchina vengono configurati
+attraverso il metodo <b>nuovoSpazio()</b> della classe </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Porto</span><span
+style='font-size:10.0pt;font-family:Times'>, che riceve come parametro la
+lettera che identifica la banchina oltre a larghezza, lunghezza e tipo dello
+spazio (sotto forma di stringa, e restituisce l’oggetto </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Spazio</span><span
+style='font-size:10.0pt;font-family:Times'> creato. Nel caso in cui la banchina
+non esista o si cerchino di creare più spazi di quelli specificati per la
+particolare banchina il metodo restituira’ </span><span style='font-size:9.0pt;
+font-family:"Courier New"'>null</span><span style='font-size:10.0pt;font-family:
+Times'>. </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>Gli spazi possono essere di tipo “permanente” (affittati su
+base trimestrale), oppure essere riservati per le barche “di passaggio”. Ogni
+spazio, descritto da un oggetto della classe </span><span style='font-size:
+9.0pt;font-family:"Courier New"'>SpazioPermanente</span><span style='font-size:
+10.0pt;font-family:Times'> o </span><span style='font-size:9.0pt;font-family:
+"Courier New"'>SpazioDiPassaggio</span><span style='font-size:10.0pt;
+font-family:Times'>, e’ identificato univocamente da un codice alfanumerico (assegnato
+in automatico all’atto della configurazione dello spazio) composto dalla
+lettera della banchina e da un numero progressivo a partire da </span><span
+style='font-size:10.0pt;font-family:"Times New Roman"'>100</span><span
+style='font-size:10.0pt;font-family:Times'>. Ad esempio, il primo spazio della
+banchina</span><span style='font-size:10.0pt;font-family:"Times New Roman"'> ‘A’</span><span
+style='font-size:10.0pt;font-family:Times'> sara’ identificato dal codice</span><span
+style='font-size:10.0pt;font-family:"Times New Roman"'> “A100”</span><span
+style='font-size:10.0pt;font-family:Times'>. Il &nbsp;metodo setter della
+classe </span><span style='font-size:9.0pt;font-family:"Courier New"'>Spazio</span><span
+style='font-size:10.0pt;font-family:Times'> consente di impostare il costo di
+affitto rispettivamente per un trimestre, nel caso di uno spazio permanente, o
+per una notte, nel caso di spazio di passaggio. Opportuni metodi getter della stessa
+classe consentono di accedere alle informazioni relative allo spazio
+considerato.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>E’ possibile cercare un particolare spazio attraverso il
+metodo </span><b><span style='font-size:10.0pt;font-family:"Times New Roman"'>cercaSpazio()</span></b><span
+style='font-size:10.0pt;font-family:Times'> della classe </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Porto</span><span
+style='font-size:10.0pt;font-family:Times'>, che riceve come parametro il
+codice dello spazio e restituisce l’oggetto corrispondente allo spazio trovato
+(</span><span style='font-size:9.0pt;font-family:"Courier New"'>null</span><span
+style='font-size:10.0pt;font-family:Times'> se lo spazio non e’ stato
+configurato).</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>Il metodo <b>elencoSpazi()</b> della classe </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Porto</span><span
+style='font-size:10.0pt;font-family:Times'> restituisce una stringa contenente
+l’elenco alfabetico delle banchine definite per il porto, una per riga. Per
+ciascuna riga, dopo la lettera che identifica la banchina ed un carattere </span><span
+style='font-size:10.0pt;font-family:"Times New Roman"'>‘:’</span><span
+style='font-size:10.0pt;font-family:Times'> (due punti), la stringa riporta in
+ordine alfabetico i codici di tutti gli spazi, separati da una ‘,’ (virgola). Le
+righe sono terminate dal carattere ‘;’ (punto e virgola), tranne l’ultima,
+terminata da un ‘.’ (punto). </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:3.0pt;text-autospace:none'><b><span
+style='font-family:Times'>R2. Barche</span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>Per definire una nuova barca si utilizza il metodo <b>nuovaBarca()</b>
+della classe </span><span style='font-size:9.0pt;font-family:"Courier New"'>Porto</span><span
+style='font-size:10.0pt;font-family:Times'>, che riceve il numero di
+immatricolazione, il nome e la dimensione (lunghezza e larghezza) della barca
+stessa. Il metodo restituisce l’oggetto di tipo </span><span style='font-size:
+9.0pt;font-family:"Courier New"'>Barca</span><span style='font-size:10.0pt;
+font-family:Times'> corrispondente. Nel caso in cui una barca con lo stesso
+numero di immatricolazione sia gia’ stata definita, il metodo restituisce un
+oggetto corrispondente alla barca in questione. Si noti come sia possibile
+definire barche con lo stesso nome, purche’ il numero di immatricolazione sia
+diverso. Opportuni metodi setter della classe </span><span style='font-size:
+9.0pt;font-family:"Courier New"'>Barca</span><span style='font-size:10.0pt;
+font-family:Times'> consentono di accedere alle suddette informazioni.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>Il metodo <b>elencoBarchePerNomeDimensione()</b> della
+classe </span><span style='font-size:9.0pt;font-family:"Courier New"'>Porto</span><span
+style='font-size:10.0pt;font-family:Times'> restituisce una collezione
+contenente tutte le barche ordinate per nome e, in caso di omonimia, per
+dimensione (lunghezza * larghezza). Il metodo <b>elencoBarchePerDimensioneNome()</b>
+restituisce invece una collezione in cui le barche sono ordinate per dimensione
+e, in caso di dimensione uguale, per nome.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:3.0pt;text-autospace:none'><b><span
+style='font-family:Times'>R3. Pagamenti ed ormeggi</span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>L’applicazione consente di registrare tutti i pagamenti
+effettuati dagli utenti del porto, rappresentanti da oggetti della classe </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Pagamento</span><span
+style='font-size:10.0pt;font-family:Times'>. Gli affitti degli spazi permanenti
+sono pagati a trimestre, in una data qualsiasi all’interno del trimestre. Il
+primo trimestre inizia il 1° gennaio, il secondo il 1° aprile e così via. </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>Per effettuare un pagamento si utilizza il metodo <b>nuovoPagamento()</b>
+della classe </span><span style='font-size:9.0pt;font-family:"Courier New"'>Porto</span><span
+style='font-size:10.0pt;font-family:Times'>. Il metodo riceve come parametri il
+codice dello spazio, la data (nel formato “AAAAMMGG”) e l’importo. Nel caso in
+cui l’importo non coincida con il costo di affitto definito per il particolare
+spazio, il metodo scatena un’eccezione di tipo </span><span style='font-size:
+9.0pt;font-family:"Courier New"'>EccezioneImporto</span><span style='font-size:
+10.0pt;font-family:Times'>. Nel caso di spazio inesistente, il metodo non
+sortisce alcun effetto.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>Per registrare l’ormeggio di una barca in porto si utilizza
+il metodo <b>ormeggia()</b> della classe </span><span style='font-size:9.0pt;
+font-family:"Courier New"'>Porto</span><span style='font-size:10.0pt;
+font-family:Times'>, che riceve come parametri il numero di immatricolazione
+della barca, il codice dello spazio e la data. Per gli spazi permanenti, il
+metodo verifica che l’affitto per il trimestre in cui cade la data passata come
+parametro risulti tra i pagamenti registrati. Per gli spazi di passaggio,
+verifica che esista un pagamento per la data considerata. In caso contrario,
+per entrambi i tipi di spazio viene scatenata un’eccezione di tipo </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>EccezioneOrmeggio</span><span
+style='font-size:10.0pt;font-family:Times'>. La suddetta eccezione viene
+scatenata anche nel caso in cui la barca o lo spazio siano non vengano trovati,
+oppure la dimensione della barca sia eccessiva (ovvero lunghezza o larghezza
+superino quelle indicate per lo spazio). </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:3.0pt;text-autospace:none'><b><span
+style='font-family:Times'>R4. Caricamento da file </span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>Il metodo <b>leggiFile()</b> della classe </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Porto</span><span
+style='font-size:10.0pt;font-family:Times'> permette di leggere da file alcune
+informazioni relative al funzionamento del porto e memorizzarle nella relativa
+struttura dati. In particolare, il metodo riceve come parametro il percorso di
+un file testuale organizzato per righe, dove ogni riga puo’ riportare le
+informazioni relative ad una banchina o ad uno spazio. Si assuma che le
+informazioni siano separate da una virgola. Le righe relative ad una banchina
+cominciano con la lettera ‘B’, seguita dal numero massimo di spazi. Le righe
+relative agli spazi cominciano invece con la lettera ‘S’, seguita
+dall’identificativo della banchina, dalla lunghezza e larghezza dello spazio e
+dal tipo dello stesso (“permanente” o “di passaggio”). Il metodo deve ignorare
+gli spazi aggiuntivi e scartare eventuali righe caratterizzate da errori di
+formato, procedendo nell’elaborazione del file. </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
