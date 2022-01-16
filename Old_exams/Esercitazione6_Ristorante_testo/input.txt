@@ -1,0 +1,10 @@
+C;Mario;Rossi;mario.rossi@gmail.com;3214566789
+C;Andrea;Bianchi;andrea.bianchi@gmail.com;14256458798
+D;Tiramisu;5;fresca delizia
+B;Coca-Cola;4;8
+B;Paulaner Weiss;5;5
+D;Bombardino;3;caldo ristoro dello sciatore
+PR;Pasta alla Carbonara;9;marchio italiano nel mondo
+PR;Pasta al Pesto Genovese;8;delizia ligure
+C;Paolo;Rota;paolo.rota@gmail.com;45541236589
+B;Acqua;1;8
