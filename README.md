@@ -6,7 +6,9 @@ per tutte le altre volte che dovrò installare questo schifo
 
 https://www.eclipse.org/downloads/
 
-```tar -zxvf eclipse-inst-jre-linux64.tar.gz && cd eclipse-installer && ./eclipse-inst```
+```
+tar -zxvf eclipse-inst-jre-linux64.tar.gz && cd eclipse-installer && ./eclipse-inst
+```
 
 questo è il comando magico
 
