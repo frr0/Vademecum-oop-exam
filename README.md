@@ -26,3 +26,6 @@ altre cose:
 
 - Esame
   - https://file.didattica.polito.it/download/MATDID/33250657
+
+- Stream slides
+  - https://raw.githubusercontent.com/squillero/oop/master/_slides/J06-JavaStreams.pdf
