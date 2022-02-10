@@ -90,9 +90,7 @@ public class CasaEditrice {
 			       volume = st.nextToken().trim();
 			       anno = st.nextToken().trim();
 			       primo=true;
-			    } 
-			    else 
-			    {
+			    } else {
 			       
 			       String nome = st.nextToken().trim();
 			       String cognome = st.nextToken().trim();
