@@ -35,7 +35,17 @@ public class Principale {
 		
 		Supermercato s = new Supermercato();
 		s.setIndirizzo("Via dei Supermercati 99");
-		s.setCostoGiornaliero(130.5);
+		s.setCostoGiornalima vendita:");
+		String ultimaVendita = s.ultimaVendita();
+		System.out.println(ultimaVendita);
+
+		// Per accedere alle informazioni relative ad una qualsiasi delle vendite siutilizza il metodo vendita()
+
+		System.out.println("");
+		System.out.println("Vendita del prodotto con nome Fusilli e con marca Barilla");
+		String venditaCercata = s.vendita("Fusilli", "Barilla");
+		System.out.println(venditaCercata);
+		ero(130.5);
 		
 		// L'indirizzo e il costo giornaliero sono accessibili tramite i metodi getIndirizzo() e getcostoGiornaliero()
 
@@ -52,17 +62,7 @@ public class Principale {
 		// Per accedere alle informazioni relative all'ultima vendita si utilizza il metodo ultimaVendita()
 
 		System.out.println("");
-		System.out.println("Ultima vendita:");
-		String ultimaVendita = s.ultimaVendita();
-		System.out.println(ultimaVendita);
-		
-		// Per accedere alle informazioni relative ad una qualsiasi delle vendite siutilizza il metodo vendita()
-
-		System.out.println("");
-		System.out.println("Vendita del prodotto con nome Fusilli e con marca Barilla");
-		String venditaCercata = s.vendita("Fusilli", "Barilla");
-		System.out.println(venditaCercata);
-	
+		System.out.println("Ulti
 		// Il metodo giorniCoperti() restituisce un valore di tipo double relativo al numero di giorni
 		// coperti, , calcolati come il rapporto tra il totale degli incassi ottenuti dalle vendite finora 
 		// registrate ed il costo di gestione giornaliero.
@@ -73,5 +73,4 @@ public class Principale {
 		System.out.println(giorniCoperti);
 	
 	}
-
 }

@@ -1,5 +1,7 @@
 # Compiled class file
 *.class
+slides
+slide
 
 # Log file
 *.log

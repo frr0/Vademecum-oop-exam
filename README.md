@@ -1,20 +1,20 @@
 # Vademecum-oop-exam
 
-How to survive to oop guide!
+OOP guide!
 
-per tutte le altre volte che dovrò installare questo schifo
+Install Eclipse
 
 https://www.eclipse.org/downloads/
 
-questo è il comando magico
+> Command
 
 ```
 tar -zxvf eclipse-inst-jre-linux64.tar.gz && cd eclipse-installer && ./eclipse-inst
 ```
 
-altre cose:
+Stuff:
 
-- Importare progetto
+- Import projct
   - https://file.didattica.polito.it/download/MATDID/33250660
 
 - Plugins
@@ -24,7 +24,7 @@ altre cose:
   - https://file.didattica.polito.it/download/MATDID/33250655
   - https://file.didattica.polito.it/download/MATDID/33250656
 
-- Esame
+- Exams
   - https://file.didattica.polito.it/download/MATDID/33250657
 
 - Stream slides
